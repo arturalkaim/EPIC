@@ -13,9 +13,17 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Firefox");
-		http://www.google.pt;
-		System.out.println("Chrome");
+		float n = Float.POSITIVE_INFINITY/1;
+		if(n==0)
+			System.out.println("é zero!!");
+		else
+			if(n<0)
+				System.out.println("é negativo!!");
+			else
+				if(n>0)
+			System.out.println("é positivo!!!");
+				else
+					System.out.println("FODA-SE!!!!!");
 	}
 
 }
