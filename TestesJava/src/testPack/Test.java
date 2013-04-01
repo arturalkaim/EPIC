@@ -9,11 +9,8 @@ package testPack;
  */
 public class Test {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		float n = Float.POSITIVE_INFINITY/1;
+		float n = Float.POSITIVE_INFINITY/Float.NEGATIVE_INFINITY;
 		if(n==0)
 			System.out.println("é zero!!");
 		else
@@ -23,7 +20,6 @@ public class Test {
 				if(n>0)
 			System.out.println("é positivo!!!");
 				else
-					System.out.println("FODA-SE!!!!!");
+					System.out.println("FODA-SE!!!!! "+n);
 	}
-
 }
